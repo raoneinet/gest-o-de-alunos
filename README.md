@@ -50,8 +50,6 @@ Este projeto permite o gerenciamento completo de dados de alunos, incluindo cada
 Importe o arquivo SQL (ex: database.sql) para seu banco de dados MySQL para criar a tabela alunos:
 
 sql
-Copiar
-Editar
 CREATE TABLE alunos (
   id INT AUTO_INCREMENT PRIMARY KEY,
   nome VARCHAR(255) NOT NULL,
@@ -62,8 +60,6 @@ CREATE TABLE alunos (
 Configure a conexão com o banco no arquivo config.php (ou arquivo equivalente):
 
 php
-Copiar
-Editar
 <?php
 $servername = "localhost";
 $username = "seu_usuario";
@@ -79,26 +75,6 @@ if ($conn->connect_error) {
 }
 ?>
 Coloque os arquivos no diretório do servidor web e acesse via navegador.
-
-📂 Estrutura do projeto
-bash
-Copiar
-Editar
-gest-o-de-alunos/
-
-├── index.php           # Listagem e controle
-
-├── create.php          # Formulário de cadastro
-
-├── edit.php            # Formulário de edição
-
-├── delete.php          # Exclusão
-
-├── config.php          # Configuração do banco de dados
-
-├── style.css           # Estilos
-
-└── script.js           # Scripts JS (validações e interatividade)
 
 
 ✍️ Autor
