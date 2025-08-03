@@ -85,15 +85,21 @@ bash
 Copiar
 Editar
 gest-o-de-alunos/
+
 ├── index.php           # Listagem e controle
+
 ├── create.php          # Formulário de cadastro
+
 ├── edit.php            # Formulário de edição
+
 ├── delete.php          # Exclusão
+
 ├── config.php          # Configuração do banco de dados
+
 ├── style.css           # Estilos
+
 └── script.js           # Scripts JS (validações e interatividade)
-📄 Licença
-Projeto licenciado sob MIT License. Veja LICENSE para detalhes.
+
 
 ✍️ Autor
 Desenvolvido por Raone Ferreira
